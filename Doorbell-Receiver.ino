@@ -97,7 +97,7 @@ void setupWifi() {
   Serial.println("WiFi connected");  
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
-  log("I/system: Wifi connected.");
+  log("I/system: wifi connected.");
   delay(700);
   digitalWrite(LED_PIN, HIGH);
   delay(1000);
