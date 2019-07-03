@@ -115,4 +115,5 @@ void setupTime() {
   delay(100);
   time_t now = time(0);
   Serial.println(ctime(&now));
+  log("I/system: time obtained via NTP");
 }
